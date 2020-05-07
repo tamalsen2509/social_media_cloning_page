@@ -1,0 +1,125 @@
+/*saas styling sheet */ 
+
+
+/*images*/
+.avatar-slack{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: block;
+}
+
+/*main container*/
+
+.main-container{
+    display:flex;
+    font-family: lato;
+}
+
+/*left-side screen*/
+.left-side{
+    flex: 0 0 200px;
+    height: 100vh;
+    background-color:rgba(77, 57, 75, 1.00) ;
+    color: white;
+    order: -1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.left-side ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 30px;
+}
+
+.left-side li{
+    padding: 10px 25px;
+    font-weight: bold;
+}
+.left-side li a{
+    color: rgb(221, 219, 219);
+}
+
+.left-side li a:hover{
+    color: whitesmoke;
+}
+
+
+.left-side i{
+    opacity: 50%;
+    padding-right: 8px;
+}
+
+/* center area*/
+.messages{
+    flex-grow:1;
+    padding-left: 2rem;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.message{
+    display: flex;
+    padding: 1rem 1rem;
+}
+.message-body{
+    font-size: 15px;
+}
+.message-body h3{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 8px;
+}
+
+.message-body h3 .span {
+    opacity: 0.5;
+    font-weight: lighter;
+}
+
+.message-body p{
+    margin-top: 0px;
+    padding-left: 8px;
+    font-family: lato;
+    font-size: 15px;
+}
+
+/* right side area*/
+.files{
+    flex: 0 0 400px;
+    background-color: rgba(249, 249, 249, 1);
+    height: 100vh;
+}
+
+.files h2{
+    font-size: 20px;
+    margin: 30px 20px;
+}
+
+.file {
+    display: flex;
+    padding: 5px;
+    margin: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.file i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+.file.pdf i{
+    color: red;
+}
+
+.file.pdf a:hover{
+    color:rgb(20, 18, 18) ;
+}
+
+.file.ruby i{
+    color: rgba(119, 170, 225, 1.00);
+}
+
+.file.ruby a:hover{
+    color: rgb(20,18,18);
+}
