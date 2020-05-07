@@ -123,3 +123,17 @@
 .file.ruby a:hover{
     color: rgb(20,18,18);
 }
+
+@media (max-width:768px){
+
+    .messages{
+        max-width: 60%;
+        padding-left: 1rem;
+    }
+    .left-side{
+        max-width: 20%;
+    }
+    .files{
+        max-width: 40%;
+    }
+} 
